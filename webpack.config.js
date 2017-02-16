@@ -18,11 +18,12 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['', '.js', '.ts']
+        extensions: ['', '.js', '.ts', ',ico']
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html'
+            template: './src/index.html',
+            favicon: './src/favicon-is.ico',
         })
     ]
 };

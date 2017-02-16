@@ -3,6 +3,7 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {HeaderComponent} from "./header/header.component";
 // import { AppRoutingModule } from './app.routing'; //TODO: Create app.routing
 
 @NgModule({
@@ -12,7 +13,7 @@ import { AppComponent } from './app.component';
     
         // AppRoutingModule,
     ],
-    declarations: [AppComponent],
+    declarations: [AppComponent, HeaderComponent],
     providers: [/* TODO: Providers go here */],
     bootstrap: [AppComponent],
 })
